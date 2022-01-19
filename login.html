@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+</head>
+<body>
+    
+    <form action="">
+        <div class="name-container">
+            <label for="name">Name</label>
+            <input required id="name" type="text">
+        </div>
+        <div class="id-container">
+            <label for="id">Id</label>
+            <input required id="id" type="text" name="" id="">
+        </div>
+        <select name="color-picker" id="color-selector">
+            <option value="0">Select a daily color</option>
+            <option value="#FF0000">Red</option>
+            <option value="#008000">Green</option>
+            <option value="#0000FF">Blue</option>
+            <option value="#FFC0CB">Pink</option>
+            <option value="#800080">Purple</option>
+            <option value="#FFFF00	">Yellow</option>
+            <option value="#A52A2A">Brown</option>
+            <option value="#FFA500">Orange</option>
+        </select>
+        <button type="submit" id="submit-btn">test</button>
+       <div id="qrcode-2"></div>
+
+    </form>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

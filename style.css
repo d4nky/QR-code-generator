@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin-top: 150px;
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qrcode-2{
+    margin-left: 30px;
+}
+label{
+    margin-right: 5%;
+}
+#submit-btn{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+}
+#color-selector{
+    margin-left: 30px;
+}
+#id{
+    width: auto;
+    margin-left: 5%;
+}
+#name {
+    width: 175px;
+    margin-right: 7%;
+}
