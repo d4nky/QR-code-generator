@@ -40,15 +40,13 @@ function timer(){
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var h = today.getHours();
-var min = today.getMinutes();
-var sec = today.getSeconds();
-if(sec < 10 && h < 10){
-    today = `${mm}-${dd} 0${h}:${min}:0${sec}`
-}
-else{
-    today = `${mm}-${dd} ${h}:${min}:${sec}`;
-}
+var h = ('10'+today.getHours()).slice(-2);
+var min = ('10'+today.getMinutes()).slice(-2);
+var sec = ('10'+today.getSeconds()).slice(-2);
+
+    today = `${mm}-${dd} ${h}:${min}:${sec}`
+
+
 
 date.textContent = today;
 setTimeout(timer, 1000)
