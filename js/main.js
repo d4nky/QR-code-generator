@@ -20,7 +20,7 @@ btn.addEventListener('click', (e) =>{
         alert('Please enter your passport!')
     }
     else{
-        username.innerHTML = `${nameInput}`
+        name.innerHTML = `${nameInput}`
         passport.innerHTML = `${passportInput}`
         var qrcode = new QRCode(document.getElementById("qrcode"), {
             text: `${id}_${nameInput}`,

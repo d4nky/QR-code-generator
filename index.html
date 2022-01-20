@@ -20,7 +20,7 @@ jscolor.presets.default = {
 		'#000000', '#7d7d7d', '#870014', '#ec1c23', '#ff7e26',
 		'#fef100', '#22b14b', '#00a1e7', '#3f47cc', '#a349a4',
 		'#ffffff', '#c3c3c3', '#b87957', '#feaec9', '#ffc80d',
-		'#eee3af', '#b5e61d', '#99d9ea', '#7092be', '#c8bfe7',
+		'#eee3af', '#b5e61d', '#99d9ea', '#7092be', '#c8bfe7', '#6a50a1', '#544530', '#80b811',
 	],
 };
 </script>
@@ -38,15 +38,16 @@ jscolor.presets.default = {
             <label for="date-color-selector">Date color</label>
             <input value="#000000" id="date-color-selector" data-jscolor="{}">
              <label for="qr-color-selector">QR color</label>
-            <input id="qr-color-selector" value="#87CEEB" id="color-selector" data-jscolor="{}">
+            <input id="qr-color-selector" value="#1388cb" id="color-selector" data-jscolor="{}">
         <button type="submit" id="submit-btn">Submit</button>   
 </div>    
     <section>
         <img id="imglmao"src="imgs/mmexportc5c9e28318edaa09662369b299f2d036_1642673353532.jpeg" alt="">
 
         <div class="intro-text" style="font-size: 0.9rem;">Everyone is responsible for epidemic prevention on campus</div>
-        <div class="info"><p id="username" style="font-size: 1.3rem;"></p><p style="font-weight: 600;">校园通行码 <span style="font-size: 0.9rem; font-weight: 300;">Campus Pass Code</span></p></div>
-        <div class="passport"><p style="margin-bottom: 5px; margin-top: 10px; font-weight: 600;">国际学院</p></div>
+        <div class="info" style="overflow-wrap: break-word;">
+            <p><span id="username" style="font-size: 1.3rem; line-height: 100px;"></span> <span style="font-size: 1.3rem; font-weight: 500; letter-spacing: 1.2px;">校园通行码</span>  <span style="font-size: 0.7em;">Campus Pass Code</span></div>
+        <div class="passport"><p style="margin-bottom: 5px; margin-top: 10px; font-weight: 500;font-size: 1.2rem; letter-spacing: 1.5px;">国际学院</p></div>
         <p id="passport"></p>
         <span id="date"></span>
         <div id="qrcode"></div>
