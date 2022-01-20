@@ -43,8 +43,8 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var h = today.getHours();
 var min = today.getMinutes();
 var sec = today.getSeconds();
-if(sec < 10){
-    today = `${mm}-${dd} ${h}:${min}:0${sec}`
+if(sec < 10 && h < 10){
+    today = `${mm}-${dd} 0${h}:${min}:0${sec}`
 }
 else{
     today = `${mm}-${dd} ${h}:${min}:${sec}`;
