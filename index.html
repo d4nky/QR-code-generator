@@ -16,38 +16,27 @@
         <img id="menu-btn" src="imgs/icons8-menu-242.png"/>
         <p id="nav-p">No action</p>
     </nav>
-    <div class="menu">
-    <form action="">
-        <div class="name-container">
-            <label for="name">Name</label>
-            <input required id="name" type="text">
-        </div>
-        <div class="id-container">
-            <label for="id">Id</label>
-            <input required id="id" type="text" name="" id="">
-        </div>
-        <div class="passport-container">
-            <label for="passport">Id</label>
-            <input required id="passport-input" type="text">
-        </div>
-        <div class="color-selectors">
+    <div id="menu">
+            <input placeholder="Name" required id="name" type="text">
+            <input placeholder="ID" required id="id" type="text">
+            <input placeholder="Passport"  required id="passport-input" type="text">
+            <label for="date-color-selector">Date color</label>
             <input value="#000000" id="date-color-selector" data-jscolor="{}">
+             <label for="qr-color-selector">QR color</label>
             <input id="qr-color-selector" value="#87CEEB" id="color-selector" data-jscolor="{}">
-        </div>
-        <button type="submit" id="submit-btn">test</button>   
-    </form>
+        <button type="submit" id="submit-btn">Submit</button>   
 </div>    
     <section>
-        <img src="imgs/mmexportc5c9e28318edaa09662369b299f2d036_1642673353532.jpeg" alt="">
+        <img id="imglmao"src="imgs/mmexportc5c9e28318edaa09662369b299f2d036_1642673353532.jpeg" alt="">
 
-        <div class="intro-text">Everyone is responsible for epidemic prevention on campus</div>
-        <div class="info"><span id="username"></span>校园通行码 Campus Pass Code</div>
-        <div class="passport"><p>国际学院</p></div>
+        <div class="intro-text" style="font-size: 0.9rem;">Everyone is responsible for epidemic prevention on campus</div>
+        <div class="info"><p id="username" style="font-size: 1.3rem;"></p><p style="font-weight: 600;">校园通行码 <span style="font-size: 0.9rem;">Campus Pass Code</span></p></div>
+        <div class="passport"><p style="margin-bottom: 5px; margin-top: 10px; font-weight: 600;">国际学院</p></div>
         <p id="passport"></p>
         <span id="date"></span>
         <div id="qrcode"></div>
-        <p id="ch-desc">凭此码可在学校朝晖校区、屏峰校区、莫干山校区范围内配合有效证件通行，请主动出示，配合检查。</p>
-        <p id="en-desc">This code can be used to pass with valid documents in the Zhaohui campus, Pingfeng campus and Moganshan campus. Please present it actively and cooperate with the inspection.</p>
+        <p class="desc">凭此码可在学校朝晖校区、屏峰校区、莫干山校区范围内配合有效证件通行，请主动出示，配合检查。</p>
+        <p class="desc">This code can be used to pass with valid documents in the Zhaohui campus, Pingfeng campus and Moganshan campus. Please present it actively and cooperate with the inspection.</p>
     </section>
 
     <script src="js/main.js"></script>
