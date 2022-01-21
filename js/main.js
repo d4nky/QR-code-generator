@@ -24,8 +24,8 @@ btn.addEventListener('click', (e) =>{
         passport.innerHTML = `${passportInput}`
         var qrcode = new QRCode(document.getElementById("qrcode"), {
             text: `${id}_${nameInput}`,
-            width: 128,
-            height: 128,
+            width: 160,
+            height: 160,
             colorDark : `${qrColor}`,
             colorLight : "#ffffff",
             correctLevel : QRCode.CorrectLevel.H
