@@ -73,10 +73,10 @@ section{
 }
 .intro-text{
     margin-top: 5px;
-    margin-bottom: 25px;
 }
 #username{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    margin: 0px 10px
 }
 #passport{
     font-size: 1.2rem;
