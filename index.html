@@ -13,8 +13,8 @@
 // let's set defaults for all color pickers
 jscolor.presets.default = {
 	width: 141,               // make the picker a little narrower
-	position: 'right',        // position it to the right of the target
-	previewPosition: 'right', // display color preview on the right
+	position: 'top',        // position it to the right of the target
+	previewPosition: 'left', // display color preview on the right
 	previewSize: 40,          // make the color preview bigger
 	palette: [
 		'#000000', '#7d7d7d', '#870014', '#ec1c23', '#ff7e26',
@@ -29,7 +29,7 @@ jscolor.presets.default = {
     
     <nav>
         <img id="menu-btn" src="imgs/icons8-menu-242.png"/>
-        <p id="nav-p">No action</p>
+        <p id="nav-p" style="font-weight: 500;">No action</p>
     </nav>
     <div id="menu">
             <input placeholder="Name" required id="name" type="text">
@@ -44,9 +44,9 @@ jscolor.presets.default = {
     <section>
         <img id="imglmao"src="imgs/mmexportc5c9e28318edaa09662369b299f2d036_1642673353532.jpeg" alt="">
 
-        <div class="intro-text" style="font-size: 0.9rem;">Everyone is responsible for epidemic prevention on campus</div>
+        <div class="intro-text" style="font-size: 0.8rem;display: inline;">Everyone is responsible for epidemic prevention on campus</div>
         <div class="info" style="overflow-wrap: break-word;">
-            <p><span id="username" style="font-size: 1.3rem; line-height: 100px;"></span> <span style="font-size: 1.3rem; font-weight: 500; letter-spacing: 1.2px;">校园通行码</span>  <span style="font-size: 0.7em;">Campus Pass Code</span></div>
+            <p><span id="username" style="font-size: 1.3rem; line-height: 100px;"></span> <span style="font-size: 1.3rem; font-weight: 500; letter-spacing: 1.2px;">校园通行码</span> <span style="font-size: 0.7em; margin-left: 4px;">Campus Pass Code</span></div>
         <div class="passport"><p style="margin-bottom: 5px; margin-top: 10px; font-weight: 500;font-size: 1.2rem; letter-spacing: 1.5px;">国际学院</p></div>
         <p id="passport"></p>
         <span id="date"></span>
